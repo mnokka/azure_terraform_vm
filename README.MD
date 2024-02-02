@@ -17,7 +17,7 @@ Using in Nixos environment:
 <br>
 
 If VM creation was ok, local machine public key must be added to VM
-.ssh/known_hosts file. Azure seems to want RSA keys.  (dir and file protections chmod 700/600). Use Azure web UI portal to connect to the created machine via shell for this operation
+.ssh/authorized_keys file. Azure seems to want RSA keys.  (dir and file protections chmod 700/600). Use Azure web UI portal to connect to the created machine via shell for this operation. Nano editor to create the file.
 <br>
 <br>
 Log into new VM from local machine:

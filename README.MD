@@ -6,18 +6,18 @@
 <br>
 Using in Nixos environment: 
 
-1) execute *nix.shell* to load Azure and Terrform commands
+1) execute *nix.shell* to load Azure and Terraform commands
 
-2) terraform init -upgrade
+2) *terraform init -upgrade*
 
-3) terraform plan 
+3) *terraform plan* 
 
-4) terraform apply 
+4) *terraform apply* 
 <br>
 <br>
 
 If VM creation was ok, local machine public key must be added to VM
-.ssh/know_hosts file. Azure seems to want RSA keys.  (dir and file protections chmod 700/600). Use Azure web UI portal to connect to the created machine via shell for this operation
+.ssh/known_hosts file. Azure seems to want RSA keys.  (dir and file protections chmod 700/600). Use Azure web UI portal to connect to the created machine via shell for this operation
 <br>
 <br>
 Log into new VM from local machine:
@@ -26,8 +26,8 @@ Log into new VM from local machine:
 <br>
 Destroy VM (to stop possible billing):
 
-1) terraform plan -destroy
-2) terraform apply
+1) *terraform plan -destroy*
+2) *terraform apply*
 
 
 

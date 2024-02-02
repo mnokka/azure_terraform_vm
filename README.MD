@@ -28,8 +28,10 @@ Destroy VM (to stop possible billing):
 
 1) *terraform plan -destroy*
 2) *terraform apply*
-
-
+<br>
+<br>
+NOTE: Check finally VM status via Azure WEBUI protal, you might have to stop(and delete)
+VM via the portal!!!
 
 
 

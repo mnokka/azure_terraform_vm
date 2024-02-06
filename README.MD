@@ -8,6 +8,8 @@ Using in Nixos environment:
 
 1) execute *nix.shell* to load Azure and Terraform commands
 
+az login -> go through Azure login process in the opened web browser
+
 2) *terraform init -upgrade*
 
 3) *terraform plan* 
